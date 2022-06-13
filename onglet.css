@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Flex:opsz,wght@8..144,500 & display=swap');
+body {
+    background-color: white;
+    font-family: 'Roboto Flex', sans-serif;
+}
+div.onglet p:not(:target) {display: none}
+div.onglet p:target {
+display: block;
+
+}
+#haut .titre{
+    margin: 0px;
+    padding: 0px 10px;
+    margin-bottom: -1px;
+	height:2.10em;
+}
+#haut .titre li {
+    float: left;
+	list-style: none;
+	margin: 0;
+	padding: .20em .20em 0;
+	height:2em;
+	
+	position: relative;
+	z-index: 1;
+	border-bottom: 1px solid #DFDDDE;
+}
+/*#haut .titre li :active{
+    z-index: 3;
+}*/
+#haut .titre a{
+    float: left;
+	height: 2em;
+	line-height: 2em;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+	background: #859ad6;
+	border: 1px solid #E1FBFD;
+	border-bottom: 0;
+	padding: 0 10px;
+	color:#E1FBFD;
+	text-decoration: none;
+}
+#haut .titre :active a{
+    background: #DFDDDE;
+	color:#690A0A;
+	-webkit-box-shadow: #E1FBFD 0 0 .25em;
+	-moz-box-shadow: #E1FBFD 0 0 .25em;
+	box-shadow: #E1FBFD 0 0 .25em;
+}
+#haut .titre a:hover{
+    background: -webkit-gradient(linear, 0 0, 0 70%, from(#5286FF), to(#DFDDDE));
+	background: -webkit-linear-gradient(#5286FF, #DFDDDE 70%);
+	background: -moz-linear-gradient(#5286FF, #DFDDDE 70%);
+	background: -ms-linear-gradient(#5286FF, #DFDDDE 70%);
+	background: -o-linear-gradient(#5286FF, #DFDDDE 70%);
+	background: linear-gradient(#5286FF, #DFDDDE 70%);
+}
+ .onglet{
+    clear: left;
+	position: relative;
+	z-index: 2;
+	padding: 2em 1em;
+	border: 1px solid #E1FBFD;
+	background:#DFDDDE;
+	color:#859ad6;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+	-khtml-box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+	
+
+}
+
+span {
+    color: #0a4caf;
+}
+
+    
